@@ -1,0 +1,7 @@
+bin
+notes.enex
+.classpath
+.settings/
+.project
+/*.jar
+notes_as_markdown
