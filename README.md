@@ -34,16 +34,3 @@ This is especially useful for anyone who wants to
 
 ## Known bugs
   * If the Note's title is very long or the note has many tags, the software skips these notes and exports all others.
-
-## Licence
-
-Copyright (C) 2014-2015 [Christian Preißinger](https://github.com/cequ), [Mathias Renner](http://mathias-renner.de)
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License version 3 as 
-published by the Free Software Foundation.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-[GNU General Public License](http://opensource.org/licenses/GPL-3.0 "GNU General Public License")
