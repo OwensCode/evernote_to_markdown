@@ -4,7 +4,7 @@ This tool converts Notes from Evernote to Markdown files. In average, **it takes
 This software is especially useful for anyone who wants to maintain notes outside of Evernote, without the dependency the Evernote app.
 
 ## Features
- * Simple and fast: Just download, put your Evernotes next to the dowload, and run it. Within seconds, your have all your Evernotes as Markdown files.
+ * Simple and fast: Download it, put your Evernotes next to the dowloaded file, and run it. Within seconds, your have all your Evernotes as Markdown files.
  * The software extracts every note out of the Evernote export format `.enex` as single `.md` file, including each note's content
     and tags. The tags are placed as part of the file name, e.g. `title-of-note[tag1_tag1_tag3].md`
  * The output files have clean file names without any unrecommended characters, such as whitespaces or commas.
