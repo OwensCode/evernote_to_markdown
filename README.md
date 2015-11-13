@@ -12,7 +12,7 @@ This software is especially useful for anyone who wants to maintain notes outsid
 ## How to use
   * In Evernote, export Notes as an `.enex` file and name it `notes.enex`
   * Download [the latest release here](https://github.com/MathiasRenner/evernote_to_markdown/releases) and put it in the same folder as your `notes.enex` file
-  * Make the .jar file executable and run it (either double-click or via terminal). After some seconds, you will see a folder `notes_as_markdown`, which includes all your exported notes as Markdown files.
+  * Make the .jar file executable and run it (either double-click or via terminal using `java -jar`). After some seconds, you will see a folder `notes_as_markdown`, which includes all your exported notes as Markdown files.
 
 ## Setup development environment for contributors
   * Install [Eclipse](https://eclipse.org/downloads/)
