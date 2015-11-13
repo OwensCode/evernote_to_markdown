@@ -26,6 +26,6 @@ This software is especially useful for anyone who wants to maintain notes outsid
   * Copy the exported file into the workspace folder of your java project
   * In Eclipse, navigate to `src/evernote_to_markdown`, double-click on `main.java`, left-click on the green **run** button of Eclipse, and choose **Application**.
  
-## Known bugs
-  * If a note's title is very long or the note has many tags, the software skips these notes and exports all others.
+## Troubleshooting, Known bugs
+  * If a note's title is very long or the note has many tags, the software terminates with error `File name too long`. To solve this, refactor long titles OR to many tags within the exported enex file.
   * A few of the HTML-Tags, which are added by Evernote when exporting, are not beeing deleted by _evernote_to_markdown_ yet.
