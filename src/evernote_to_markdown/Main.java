@@ -18,16 +18,20 @@ public class Main {
 
 	public static void main(String[] args) {
 		try {
+			System.out.println("\nConverting Evernotes to Markdown files...\n");
 			List<Note> convertedNotes = loadEvernoteNotes();
-			print(convertedNotes);
+			// Output all notes to STOUT for debugging
+			// print(convertedNotes);
 			saveToFile(convertedNotes);
 		} catch (ParsingException | IOException e) {
+			System.out.println("\nA problem has been encountered. See details below.\nCheck https://github.com/MathiasRenner/evernote_to_markdown/ for help.\n");
 			e.printStackTrace();
 		}
 	}
 
 	private static void saveToFile(List<Note> convertedNotes) throws IOException {
 		new TagspacesSaver().save(convertedNotes);
+		System.out.println("Finished! :-)\n");
 	}
 
 	private static void print(List<Note> convertedNotes) {
