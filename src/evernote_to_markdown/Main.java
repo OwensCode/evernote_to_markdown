@@ -24,7 +24,7 @@ public class Main {
 			// print(convertedNotes);
 			saveToFile(convertedNotes);
 		} catch (ParsingException | IOException e) {
-			System.out.println("\nA problem has been encountered. See details below.\nCheck https://github.com/MathiasRenner/evernote_to_markdown/ for help.\n");
+			System.out.println("I am sorry, there is something wrong. Please see details below.\nCheck https://github.com/MathiasRenner/evernote_to_markdown/ for help.\n");
 			e.printStackTrace();
 		}
 	}

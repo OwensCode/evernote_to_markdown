@@ -60,7 +60,11 @@ public class Note {
 				.replaceAll("</a>", "").replaceAll("</b>", "**")
 				.replaceAll("<u>", "**").replaceAll("</u>", "**")
 				.replaceAll("<a([^<]*)>", "").replaceAll("\\*\\*\\*\\*", "")
-				.replaceAll("</a>", "").replaceAll("<img([^<]*)>", "");
+				.replaceAll("</a>", "").replaceAll("<img([^<]*)>", "")
+				.replaceAll("&nbsp;", "").replaceAll("</div>", "")
+				.replaceAll("<ul>", "").replaceAll("</ul>", "") 
+				.replaceAll("<li>", "").replaceAll("</li>", "") 
+				.replaceAll("<ol>", "").replaceAll("</ol>", "");
 
 		return converted;
 	}
