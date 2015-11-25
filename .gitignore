@@ -5,3 +5,5 @@ notes.enex
 .project
 /*.jar
 notes_as_markdown
+target
+dependency-reduced-pom.xml

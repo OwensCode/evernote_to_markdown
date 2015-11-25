@@ -45,7 +45,8 @@ public class Main {
 		List<Note> convertedNotes = new LinkedList<>();
 		Document document = new EvernoteExport().getDocument();
 		Nodes notes = document.getRootElement().query("./child::note");
-		for (Node note : notes) {
+		for (int i = 0; i < notes.size(); ++i) {
+			Node note = notes.get(i);
 			Nodes title = note.query("./child::title/text()");
 			Nodes tags = note.query("./child::tag");
 			Nodes content = note.query("./child::content/text()");

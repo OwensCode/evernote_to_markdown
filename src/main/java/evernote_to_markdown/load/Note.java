@@ -14,18 +14,19 @@ public class Note {
 
 	public Note(Nodes title, Nodes content, Nodes tags) {
 		super();
-		if (title.isEmpty()) {
+		if (title.size() == 0) {
 			throw new IllegalArgumentException();
 		}
 		this.title = extractString(title);
-		if (content.isEmpty()) {
+		if (content.size() == 0) {
 			this.content = "";
 		} else {
 			this.content = extractContent(content);
 		}
-		for (Node tag : tags) {
+		for (int i = 0; i < tags.size(); ++i) {
+			Node tag = tags.get(i);
 			Nodes tagValue = tag.query("./text()");
-			if (!tagValue.hasAny()) {
+			if (tagValue.size() == 0) {
 				continue;
 			}
 			String tagString = extractContent(tagValue);
