@@ -7,3 +7,4 @@ notes.enex
 notes_as_markdown
 target
 dependency-reduced-pom.xml
+docker/m2repo
